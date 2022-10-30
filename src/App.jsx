@@ -110,8 +110,8 @@ function App() {
         </h2>
 
         <p className=' text-xl text-gray-500 text-center font-bold'>{meses} Meses</p>
-        <p className=' text-xl text-gray-500 text-center font-bold'>Total a pagar{formatearDinero(total)} </p>
-        <p className=' text-xl text-gray-500 text-center font-bold'>Mensuales{formatearDinero(pago)}</p>
+        <p className=' text-xl text-gray-500 text-center font-bold'>Total a pagar: {formatearDinero(total)} </p>
+        <p className=' text-xl text-gray-500 text-center font-bold'>Mensuales: {formatearDinero(pago)}</p>
 
       </div>
 
